@@ -12,7 +12,7 @@ android {
     defaultConfig {
 
         // Uniquely identifies the package for publishing.
-        applicationId = "com.example.helloapp"
+        applicationId = "com.loveapp.helloapp"
 
         // Specifies the API level used to test the app.
         targetSdk = 34
@@ -28,6 +28,7 @@ android {
         // Defines a user-friendly version name for your app.
         versionName = "1.0"
     }
+    namespace 'com.loveapp.helloapp'
 
     // See for version: https://developer.android.com/jetpack/androidx/releases/compose-kotlin
     composeOptions {

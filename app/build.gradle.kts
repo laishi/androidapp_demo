@@ -14,6 +14,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3:1.1.2")
     implementation("androidx.appcompat:appcompat:1.6.1")
+
+    implementation("com.google.accompanist:accompanist-flowlayout:0.26.2-beta")
+
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 }
 
