@@ -21,21 +21,7 @@ dependencies {
 }
 
 android {
-    /**
-     * The buildTypes block is where you can configure multiple build types.
-     * By default, the build system defines two build types: debug and release. The
-     * debug build type is not explicitly shown in the default build configuration,
-     * but it includes debugging tools and is signed with the debug key. The release
-     * build type applies ProGuard settings and is not signed by default.
-     */
-
      buildTypes {
-
-        /**
-         * By default, Android Studio configures the release build type to enable code
-         * shrinking, using minifyEnabled, and specifies the default ProGuard rules file.
-         */
-
         getByName("release") {
             isMinifyEnabled = true // Enables code shrinking for the release build type.
             proguardFiles(
